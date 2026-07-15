@@ -1,0 +1,31 @@
+{
+  "name": "br-phone-utils",
+  "version": "1.0.0",
+  "description": "Utilitários sem dependências para normalizar, validar e formatar telefones brasileiros.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "bin": {
+    "br-phone": "bin/br-phone.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/index.js && node --check bin/br-phone.js"
+  },
+  "keywords": [
+    "telefone",
+    "brasil",
+    "phone",
+    "validation",
+    "formatter"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
